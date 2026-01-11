@@ -15,5 +15,13 @@ To download the dataset locally:
 ```bash
 pip install kagglehub
 python download_dataset.py
+```
 
-![alt text](image.png)
+To test model
+
+```bash
+python -m src.make_dataset
+python -m src.train --test_year 2016
+python -m src.evaluate
+python -m src.predict --country "Canada" --athletes 315 --prev_medals 24
+```
