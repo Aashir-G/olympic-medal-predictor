@@ -15,3 +15,5 @@ To download the dataset locally:
 ```bash
 pip install kagglehub
 python download_dataset.py
+
+![alt text](image.png)
